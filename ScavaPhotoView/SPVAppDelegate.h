@@ -11,5 +11,5 @@
 @interface SPVAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, readwrite) NSString *flikrAPIKey;
 @end

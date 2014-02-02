@@ -7,12 +7,15 @@
 //
 
 #import "SPVAppDelegate.h"
+#define kFlickrAPIKey @"e16949f7e02fa303ae0cf79d12c3481b"
 
 @implementation SPVAppDelegate
-
+@synthesize flikrAPIKey;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //app delegate is a singleton define the flikr api key here
+    [self setFlikrAPIKey:kFlickrAPIKey];
     return YES;
 }
 							

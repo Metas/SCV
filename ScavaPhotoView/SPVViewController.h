@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPVViewController : UIViewController
+@interface SPVViewController : UIViewController < NSURLConnectionDataDelegate>
+{
+    NSString *flikrURL;
+    NSString *searchText;
+
+    NSMutableArray *flikrLargePhotoURL;
+    int rowNumber;
+    int pageNumber ;
+}
+@property (strong,readwrite)NSString *flikrURL;
+@property (strong,readwrite)NSString *searchText ;
+
+-(void)searchFlikrPhotos;
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *FlikrImage;
+@property (strong, nonatomic) IBOutlet UITableView *flikrTable;
 
 @end

@@ -21,6 +21,7 @@
 		9DDEAF70189AC12700AE0955 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDEAF52189AC12700AE0955 /* UIKit.framework */; };
 		9DDEAF78189AC12700AE0955 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9DDEAF76189AC12700AE0955 /* InfoPlist.strings */; };
 		9DDEAF7A189AC12700AE0955 /* ScavaPhotoViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEAF79189AC12700AE0955 /* ScavaPhotoViewTests.m */; };
+		9DDEAF94189DE2FD00AE0955 /* SPVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDEAF93189DE2FD00AE0955 /* SPVCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9DDEAF75189AC12700AE0955 /* ScavaPhotoViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScavaPhotoViewTests-Info.plist"; sourceTree = "<group>"; };
 		9DDEAF77189AC12700AE0955 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9DDEAF79189AC12700AE0955 /* ScavaPhotoViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScavaPhotoViewTests.m; sourceTree = "<group>"; };
+		9DDEAF92189DE2FD00AE0955 /* SPVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPVCell.h; sourceTree = "<group>"; };
+		9DDEAF93189DE2FD00AE0955 /* SPVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPVCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9DDEAF60189AC12700AE0955 /* Main.storyboard */,
 				9DDEAF63189AC12700AE0955 /* SPVViewController.h */,
 				9DDEAF64189AC12700AE0955 /* SPVViewController.m */,
+				9DDEAF92189DE2FD00AE0955 /* SPVCell.h */,
+				9DDEAF93189DE2FD00AE0955 /* SPVCell.m */,
 				9DDEAF66189AC12700AE0955 /* Images.xcassets */,
 				9DDEAF55189AC12700AE0955 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDEAF5F189AC12700AE0955 /* SPVAppDelegate.m in Sources */,
+				9DDEAF94189DE2FD00AE0955 /* SPVCell.m in Sources */,
 				9DDEAF5B189AC12700AE0955 /* main.m in Sources */,
 				9DDEAF65189AC12700AE0955 /* SPVViewController.m in Sources */,
 			);
